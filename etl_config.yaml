@@ -1,0 +1,10 @@
+raw_data_path: "data/raw/"
+processed_data_path: "data/processed/"
+report_path: "reports/daily_summary.csv"
+columns_to_keep:
+  - fecha
+  - producto
+  - cantidad
+  - precio_unitario
+  - vendedor
+  - sucursal

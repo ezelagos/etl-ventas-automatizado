@@ -1,0 +1,13 @@
+# Data
+data/raw/*
+data/processed/*
+
+# Logs
+logs/*
+
+# Reports
+reports/*
+
+# Python
+__pycache__/
+*.pyc

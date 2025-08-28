@@ -1,0 +1,5 @@
+fecha,producto,cantidad,precio_unitario,vendedor,sucursal
+2025-08-26,Camisa,2.0,3500.5,Juan,Caba
+2025-08-26,Pantalón,1.0,7200.0,Lucía,Caba
+2025-08-26,Campera,1.0,12000.0,Mario,La Plata
+2025-08-26,Camisa,2.0,3500.5,,Caba

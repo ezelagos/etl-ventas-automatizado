@@ -1,0 +1,7 @@
+fecha,producto,cantidad,precio_unitario,vendedor,sucursal,extra_columna
+2025-08-26,Camisa,2,3500.5,Juan,CABA,lorem
+2025-08-26,Pantalón,1,7200.0,Lucía,CABA,ipsum
+2025-08-26,Campera,1,12000.0,Mario,La Plata,dolor
+2025-08-26,Camisa,NaN,3500.5,Juan,CABA,sit
+2025-08-26,Camisa,2,3500.5,,CABA,amet
+2025-13-01,Zapatilla,1,8500.0,Luz,CABA,null

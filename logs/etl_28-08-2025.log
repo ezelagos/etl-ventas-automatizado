@@ -1,0 +1,656 @@
+2025-08-28 17:19:57,259 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 17:19:57,342 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 17:19:57,342 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 17:19:57,365 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 17:19:57,366 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 17:19:57,378 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 17:19:57,378 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 17:19:57,389 - DEBUG - \n        fecha  producto  cantidad  precio_unitario vendedor  sucursal
+0  2025-08-26    Camisa       2.0           3500.5     Juan      CABA
+1  2025-08-26  Pantalón       1.0           7200.0    Lucía      CABA
+2  2025-08-26   Campera       1.0          12000.0    Mario  La Plata
+3  2025-08-26    Camisa       NaN           3500.5     Juan      CABA
+4  2025-08-26    Camisa       2.0           3500.5      NaN      CABA
+2025-08-28 17:19:57,389 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 18:28:04,835 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 18:28:04,836 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 18:28:04,837 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 18:28:04,840 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 18:28:04,840 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 18:28:04,841 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 18:30:05,903 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 18:30:05,904 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 18:30:05,904 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 18:30:05,906 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 18:30:05,907 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 18:30:05,907 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 18:30:05,917 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 18:30:05,925 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 18:30:05,949 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 2
+2025-08-28 18:30:05,969 - INFO - \u2705 Registros válidos tras reglas de negocio: 4
+2025-08-28 18:30:53,209 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 18:30:53,210 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 18:30:53,210 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 18:30:53,213 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 18:30:53,213 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 18:30:53,214 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 18:30:53,216 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 18:30:53,218 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 18:30:53,220 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 2
+2025-08-28 18:30:53,221 - INFO - \u2705 Registros válidos tras reglas de negocio: 4
+2025-08-28 18:30:53,222 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 18:30:53,265 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-25.csv
+2025-08-28 18:30:53,265 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 18:30:53,271 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal
+0 2025-08-26    Camisa       2.0           3500.5     Juan      Caba
+1 2025-08-26  Pantalón       1.0           7200.0    Lucía      Caba
+2 2025-08-26   Campera       1.0          12000.0    Mario  La Plata
+4 2025-08-26    Camisa       2.0           3500.5      NaN      Caba
+2025-08-28 18:30:53,271 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 18:31:39,316 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 18:31:39,317 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 18:31:39,317 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 18:31:39,320 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 18:31:39,321 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 18:31:39,321 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 18:31:39,323 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 18:31:39,325 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 18:31:39,327 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 2
+2025-08-28 18:31:39,329 - INFO - \u2705 Registros válidos tras reglas de negocio: 4
+2025-08-28 18:31:39,329 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 18:31:39,332 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 18:31:39,332 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 18:31:39,337 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal
+0 2025-08-26    Camisa       2.0           3500.5     Juan      Caba
+1 2025-08-26  Pantalón       1.0           7200.0    Lucía      Caba
+2 2025-08-26   Campera       1.0          12000.0    Mario  La Plata
+4 2025-08-26    Camisa       2.0           3500.5      NaN      Caba
+2025-08-28 18:31:39,337 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:07:33,999 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:07:34,000 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:07:34,000 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:07:34,003 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 19:07:34,003 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:07:34,004 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:07:34,006 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:07:34,007 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:07:34,010 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 2
+2025-08-28 19:07:34,011 - INFO - \u2705 Registros válidos tras reglas de negocio: 4
+2025-08-28 19:07:34,012 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:07:34,014 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:07:34,015 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:07:34,036 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:07:34,038 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:07:34,039 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:07:34,041 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:07:34,043 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha  sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-08-26      Caba         21202.0       5.0        3      7067.333333
+1  2025-08-26  La Plata         12000.0       1.0        1     12000.000000
+2025-08-28 19:07:34,044 - DEBUG - \U0001f947 Top productos:
+producto  monto_total
+  Camisa      14002.0
+ Campera      12000.0
+Pantalón       7200.0
+2025-08-28 19:07:34,045 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+    vendedor  monto_total
+        Juan       7001.0
+Sin Vendedor       7001.0
+       Lucía       7200.0
+       Mario      12000.0
+2025-08-28 19:07:34,045 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:07:34,049 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+0 2025-08-26    Camisa       2.0           3500.5     Juan      Caba       7001.0
+1 2025-08-26  Pantalón       1.0           7200.0    Lucía      Caba       7200.0
+2 2025-08-26   Campera       1.0          12000.0    Mario  La Plata      12000.0
+4 2025-08-26    Camisa       2.0           3500.5      NaN      Caba       7001.0
+2025-08-28 19:07:34,049 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:19:24,473 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:19:24,474 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:19:24,474 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:19:24,477 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 19:19:24,483 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv.csv
+2025-08-28 19:19:24,484 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:19:24,485 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:19:24,490 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:19:24,493 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:19:24,497 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1553
+2025-08-28 19:19:24,499 - INFO - \u2705 Registros válidos tras reglas de negocio: 4453
+2025-08-28 19:19:24,501 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:19:24,512 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:19:24,513 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:19:24,524 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:19:24,526 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:19:24,527 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:19:24,529 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:19:24,531 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:19:24,532 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10667821.37
+Zapatilla  10425583.00
+  Campera  10203932.34
+ Pantalón  10002714.85
+   Remera   9563517.91
+2025-08-28 19:19:24,533 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11464839.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11969619.85
+2025-08-28 19:19:24,533 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:19:24,537 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+0 2025-08-26    Camisa       2.0          3500.50     Juan      Caba      7001.00
+1 2025-08-26  Pantalón       1.0          7200.00    Lucía      Caba      7200.00
+2 2025-08-26   Campera       1.0         12000.00    Mario  La Plata     12000.00
+4 2025-08-26    Camisa       2.0          3500.50      NaN      Caba      7001.00
+7 2025-08-28    Remera       2.0          8074.89    Mario      Caba     16149.78
+2025-08-28 19:19:24,538 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:19:58,208 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:19:58,208 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:19:58,209 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:19:58,211 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-26.csv
+2025-08-28 19:19:58,218 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:19:58,218 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:19:58,219 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:19:58,224 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:19:58,227 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:19:58,231 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1553
+2025-08-28 19:19:58,233 - INFO - \u2705 Registros válidos tras reglas de negocio: 4453
+2025-08-28 19:19:58,235 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:19:58,247 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:19:58,248 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:19:58,257 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:19:58,259 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:19:58,260 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:19:58,262 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:19:58,264 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:19:58,265 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10667821.37
+Zapatilla  10425583.00
+  Campera  10203932.34
+ Pantalón  10002714.85
+   Remera   9563517.91
+2025-08-28 19:19:58,266 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11464839.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11969619.85
+2025-08-28 19:19:58,266 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:19:58,271 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+0 2025-08-26    Camisa       2.0          3500.50     Juan      Caba      7001.00
+1 2025-08-26  Pantalón       1.0          7200.00    Lucía      Caba      7200.00
+2 2025-08-26   Campera       1.0         12000.00    Mario  La Plata     12000.00
+4 2025-08-26    Camisa       2.0          3500.50      NaN      Caba      7001.00
+7 2025-08-28    Remera       2.0          8074.89    Mario      Caba     16149.78
+2025-08-28 19:19:58,271 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:20:07,214 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:20:07,214 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:20:07,215 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:20:07,217 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-266.csv
+2025-08-28 19:20:07,223 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:20:07,224 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:20:07,225 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:20:07,230 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:20:07,233 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:20:07,237 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1553
+2025-08-28 19:20:07,239 - INFO - \u2705 Registros válidos tras reglas de negocio: 4453
+2025-08-28 19:20:07,241 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:20:07,253 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:20:07,254 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:20:07,265 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:20:07,266 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:20:07,267 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:20:07,269 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:20:07,271 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:20:07,272 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10667821.37
+Zapatilla  10425583.00
+  Campera  10203932.34
+ Pantalón  10002714.85
+   Remera   9563517.91
+2025-08-28 19:20:07,273 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11464839.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11969619.85
+2025-08-28 19:20:07,274 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:20:07,279 - DEBUG - \n       fecha  producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+0 2025-08-26    Camisa       2.0          3500.50     Juan      Caba      7001.00
+1 2025-08-26  Pantalón       1.0          7200.00    Lucía      Caba      7200.00
+2 2025-08-26   Campera       1.0         12000.00    Mario  La Plata     12000.00
+4 2025-08-26    Camisa       2.0          3500.50      NaN      Caba      7001.00
+7 2025-08-28    Remera       2.0          8074.89    Mario      Caba     16149.78
+2025-08-28 19:20:07,279 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:20:59,214 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:20:59,215 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:20:59,215 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:20:59,215 - WARNING - \u26a0\ufe0f No se encontraron archivos válidos en la carpeta raw.
+2025-08-28 19:20:59,216 - WARNING - \u26a0\ufe0f DataFrame vacío. Proceso finalizado sin datos.
+2025-08-28 19:21:09,687 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:21:09,688 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:21:09,688 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:21:09,696 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:21:09,696 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:21:09,697 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:21:09,702 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:21:09,705 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:21:09,710 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:21:09,711 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:21:09,714 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:21:09,725 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:21:09,726 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:21:09,736 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:21:09,737 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:21:09,738 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:21:09,740 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:21:09,742 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:21:09,743 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+ Pantalón   9995514.85
+   Remera   9563517.91
+2025-08-28 19:21:09,744 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11457639.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:21:09,744 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:21:09,749 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofía   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:21:09,749 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:24:27,722 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:24:27,723 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:24:27,723 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:24:27,731 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:24:27,731 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:24:27,732 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:24:27,738 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:24:27,740 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:24:27,745 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:24:27,746 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:24:27,749 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:24:27,763 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:24:27,764 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:24:27,774 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:24:51,635 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:24:51,636 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:24:51,636 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:24:51,650 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:24:51,650 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:24:51,652 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:24:51,660 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:24:51,664 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:24:51,675 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:24:51,679 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:24:51,682 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:24:51,698 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:24:51,700 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:24:51,711 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:24:51,713 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:24:51,714 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:24:51,715 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:24:51,718 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:24:51,719 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+ Pantalón   9995514.85
+   Remera   9563517.91
+2025-08-28 19:24:51,720 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11457639.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:24:51,720 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:24:51,725 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofía   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:24:51,725 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:26:27,970 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:26:27,971 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:26:27,972 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:26:27,979 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:26:27,980 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:26:27,981 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:26:27,985 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:26:27,988 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:26:27,993 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:26:27,994 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:26:27,997 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:26:28,008 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:26:28,010 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:26:28,019 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:26:53,544 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:26:53,545 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:26:53,545 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:26:53,553 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:26:53,554 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:26:53,555 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:26:53,560 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:26:53,562 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:26:53,567 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:26:53,568 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:26:53,571 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:26:53,582 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:26:53,584 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:26:53,593 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:26:53,595 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:26:53,596 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:26:53,598 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:26:53,600 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:26:53,601 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+ Pantalón   9995514.85
+   Remera   9563517.91
+2025-08-28 19:26:53,602 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11457639.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:26:53,602 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:26:53,607 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofía   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:26:53,607 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:28:56,512 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:28:56,513 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:28:56,513 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:28:56,513 - ERROR - \u26a0\ufe0f Error al leer ventas_2025-08-28.csv: name 'file_path' is not defined
+2025-08-28 19:28:56,513 - WARNING - \u26a0\ufe0f No se encontraron archivos válidos en la carpeta raw.
+2025-08-28 19:28:56,514 - WARNING - \u26a0\ufe0f DataFrame vacío. Proceso finalizado sin datos.
+2025-08-28 19:31:00,596 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:31:00,597 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:31:00,597 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:31:00,605 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:31:00,605 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:31:00,606 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:31:00,611 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:31:00,613 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:31:00,617 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:31:00,619 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:31:00,621 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:31:00,633 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:31:00,633 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:31:00,642 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:31:00,644 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:31:00,645 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:31:00,646 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:31:00,649 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:31:00,650 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+ Pantalón   9995514.85
+   Remera   9563517.91
+2025-08-28 19:31:00,651 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11457639.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:31:00,651 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:31:00,656 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofía   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:31:00,656 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:32:06,699 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:32:06,700 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:32:06,700 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:32:06,708 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:32:06,708 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:32:06,709 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:32:06,714 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:32:06,717 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:32:06,721 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:32:06,723 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:32:06,725 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:32:06,736 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:32:06,737 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:32:06,746 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:32:06,748 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:32:06,749 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:32:06,750 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:32:06,752 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahía Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:32:06,753 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+ Pantalón   9995514.85
+   Remera   9563517.91
+2025-08-28 19:32:06,754 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucía  11457639.63
+   Sofía  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:32:06,754 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:32:06,759 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofía   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:32:06,759 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:33:34,348 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:33:34,349 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:33:34,349 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:33:34,358 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:33:34,358 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:33:34,359 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:33:34,364 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:33:34,367 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:33:34,371 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:33:34,373 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:33:34,375 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:33:34,386 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:33:34,387 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:33:34,396 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:33:34,398 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:33:34,399 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:33:34,401 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:33:34,403 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30  Bahã­A Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:33:34,404 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+Pantalã³N   9995514.85
+   Remera   9563517.91
+2025-08-28 19:33:34,405 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+  Lucã­A  11457639.63
+  Sofã­A  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:33:34,405 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:33:34,410 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08   Sofã­A   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:33:34,410 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:34:01,084 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:34:01,085 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:34:01,085 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:34:01,093 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:34:01,093 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:34:01,094 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:34:01,099 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:34:01,102 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:34:01,106 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:34:01,108 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:34:01,110 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:34:01,121 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:34:01,122 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:34:01,131 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:34:01,133 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:34:01,134 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:34:01,135 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:34:01,138 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30  Bahã­A Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:34:01,139 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+Pantalã³N   9995514.85
+   Remera   9563517.91
+2025-08-28 19:34:01,139 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+  Lucã­A  11457639.63
+  Sofã­A  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:34:01,140 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:34:01,144 - DEBUG - \n       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08   Sofã­A   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:34:01,145 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
+2025-08-28 19:38:48,587 - INFO - \U0001f680 Inicio del proceso ETL
+2025-08-28 19:38:48,588 - INFO - \u2705 Configuración cargada correctamente.
+2025-08-28 19:38:48,588 - INFO - \U0001f4e5 Leyendo archivos CSV crudos...
+2025-08-28 19:38:48,596 - INFO - \U0001f4c4 Archivo cargado: ventas_2025-08-28.csv
+2025-08-28 19:38:48,597 - INFO - \U0001f9f9 Filtrando columnas necesarias...
+2025-08-28 19:38:48,598 - INFO - \u2705 Columnas filtradas correctamente.
+2025-08-28 19:38:48,611 - INFO - \U0001f9fd Normalización básica de texto completada.
+2025-08-28 19:38:48,614 - INFO - \U0001f9f1 Tipificación: fechas y numéricos aplicados.
+2025-08-28 19:38:48,619 - WARNING - \U0001f6ab Filas eliminadas por nulos críticos: 1551
+2025-08-28 19:38:48,621 - INFO - \u2705 Registros válidos tras reglas de negocio: 4449
+2025-08-28 19:38:48,623 - INFO - \U0001f39b\ufe0f Estandarización de categorías aplicada.
+2025-08-28 19:38:48,635 - INFO - \U0001f4be Datos limpios guardados en: data/processed/ventas_limpias_28-08-2025.csv
+2025-08-28 19:38:48,636 - INFO - \u2795 Columna monto_total creada.
+2025-08-28 19:38:48,645 - INFO - \U0001f4ca Resumen diario por sucursal generado.
+2025-08-28 19:38:48,647 - INFO - \U0001f4e4 Resumen diario anexado en: reports/daily_summary.csv
+2025-08-28 19:38:48,648 - INFO - \U0001f3c6 Top 5 productos calculado.
+2025-08-28 19:38:48,649 - INFO - \U0001f9d1\u200d\U0001f4bc Top 5 vendedores calculado.
+2025-08-28 19:38:48,651 - DEBUG - \U0001f4c8 Vista resumen diario (primeras filas):
+        fecha       sucursal  ventas_totales  unidades  tickets  ticket_promedio
+0  2025-07-30   Bahaa Blanca       817116.70      76.0       40     20427.917500
+1  2025-07-30           Caba       643012.79      61.0       28     22964.742500
+2  2025-07-30       La Plata       584865.68      51.0       29     20167.782069
+3  2025-07-30  Mar Del Plata       666734.51      52.0       24     27780.604583
+4  2025-07-30        Rosario       446099.15      46.0       20     22304.957500
+2025-08-28 19:38:48,653 - DEBUG - \U0001f947 Top productos:
+ producto  monto_total
+   Camisa  10653819.37
+Zapatilla  10425583.00
+  Campera  10191932.34
+Pantala3N   9995514.85
+   Remera   9563517.91
+2025-08-28 19:38:48,653 - DEBUG - \U0001f9d1\u200d\U0001f4bc Top vendedores:
+vendedor  monto_total
+     Ana  11322114.78
+   Lucaa  11457639.63
+   Sofaa  11633949.91
+     Luz  11895077.33
+   Mario  11957619.85
+2025-08-28 19:38:48,654 - DEBUG - \U0001f50d Vista previa de los datos:
+2025-08-28 19:38:48,659 - DEBUG - 
+       fecha producto  cantidad  precio_unitario vendedor  sucursal  monto_total
+1 2025-08-28   Remera       2.0          8074.89    Mario      Caba     16149.78
+2 2025-08-28   Remera       3.0          3678.37      Ana   Rosario     11035.11
+3 2025-08-28    Gorra       1.0          8955.08    Sofaa   Rosario      8955.08
+4 2025-08-28   Medias       2.0         16291.69   Carlos  La Plata     32583.38
+5 2025-08-28   Remera       1.0          4612.15      NaN   Rosario      4612.15
+2025-08-28 19:38:48,659 - INFO - \u2705 ETL finalizado correctamente. Próxima fase: limpieza.
