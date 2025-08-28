@@ -1,10 +1,10 @@
-import os                       # para trabajar con archivos y rutas
-import pandas as pd             # manipulacion de datos
-import numpy as np              # funciones numericas si se necesitan
-import yaml                     # para leer el archivo de configuracion
-import logging                  # para registrar logs del proceso
-from datetime import datetime   # para fechas y timestamps
-import unicodedata              # para remover tildes y normalizar texto
+import os                       
+import pandas as pd             
+import numpy as np              
+import yaml                     
+import logging                  
+from datetime import datetime  
+import unicodedata              
 
 #crear nombre dinamico del archivo log
 fecha_hoy = datetime.today().strftime('%d-%m-%Y')
